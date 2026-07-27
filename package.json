@@ -1,0 +1,12 @@
+{
+  "name": "shopping-cart-lld",
+  "version": "1.0.0",
+  "description": "Low-level design of an online shopping cart in TypeScript",
+  "type": "module",
+  "scripts": {
+    "start": "node --experimental-transform-types --disable-warning=ExperimentalWarning src/index.ts"
+  },
+  "engines": {
+    "node": ">=22.6.0"
+  }
+}
