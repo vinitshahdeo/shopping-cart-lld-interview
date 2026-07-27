@@ -4,7 +4,11 @@ An interview-ready LLD of an online shopping cart. The focus is clean,
 defensible design — **not** maximum features. Only one design pattern is used,
 and only where it earns its place.
 
+[![Substack](https://img.shields.io/badge/Substack-FF6719?style=for-the-badge&logo=substack&logoColor=white)](https://vinitshahdeo.substack.com/p/shopping-cart-lld-interview)
+
+
 > **Kindly refer to a [detailed walk-through blog](https://vinitshahdeo.substack.com/p/shopping-cart-lld-interview) on Substack.**
+
 
 ## Run it
 
@@ -114,3 +118,5 @@ TOTAL                    = $2.75
 - **Repositories** for `Product` / `Order` persistence.
 - **More discount strategies** — they slot in with zero changes to `Cart`.
 - **Per-item discounts** vs the cart-level discounts modelled here.
+
+[![Substack](https://img.shields.io/badge/Substack-FF6719?style=for-the-badge&logo=substack&logoColor=white)](https://vinitshahdeo.substack.com/p/shopping-cart-lld-interview)
