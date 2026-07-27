@@ -4,6 +4,8 @@ An interview-ready LLD of an online shopping cart. The focus is clean,
 defensible design — **not** maximum features. Only one design pattern is used,
 and only where it earns its place.
 
+> **Kindly refer to a [detailed walk-through blog](https://vinitshahdeo.substack.com/p/shopping-cart-lld-interview) on Substack.**
+
 ## Run it
 
 ```bash
