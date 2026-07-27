@@ -47,13 +47,8 @@ src/
 
 ## Class model
 
-```
-User  ──owns──▶  Cart  ──has many──▶  CartItem  ──refers to──▶  Product
-                  │
-                  ├── has many ──▶  DiscountStrategy   (Strategy pattern)
-                  │
-                  └── checkout() ──▶  Order   (immutable snapshot)
-```
+<img width="1774" height="887" alt="Shopping Cart Class Diagram" src="https://github.com/user-attachments/assets/3c9a5ed2-a980-4876-9748-2ca3cafa89eb" />
+
 
 | Class | Responsibility |
 |-------|----------------|
