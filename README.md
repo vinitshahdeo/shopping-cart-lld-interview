@@ -10,6 +10,11 @@ and only where it earns its place.
 > **Kindly refer to a [detailed walk-through blog](https://vinitshahdeo.substack.com/p/shopping-cart-lld-interview) on Substack.**
 
 
+## Demo
+
+https://github.com/user-attachments/assets/6ef17182-3067-4233-9904-b2f93f4dbb98
+
+
 ## Run it
 
 ```bash
