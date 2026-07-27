@@ -1,6 +1,6 @@
 # Online Shopping Cart — Low-Level Design (TypeScript)
 
-An interview-ready LLD of an online shopping cart. The focus is clean,
+An interview-ready LLD of an online shopping cart (add to cart). The focus is clean,
 defensible design — **not** maximum features. Only one design pattern is used,
 and only where it earns its place.
 
