@@ -98,6 +98,12 @@ be solving problems this scope doesn't have.
 `getTotal()` applies **discounts first, then tax on the discounted amount** —
 the usual retail rule. The order is a classic interview probe, so it's a single,
 commented place in the code. Money is rounded to 2 decimals via `round2()`.
+
+```javascript
+console.log(0.1 + 0.2) // try this in terminal
+```
+
+> [!WARNING]
 > In production you'd store integer cents or use a decimal library to avoid
 > floating-point drift — worth saying out loud.
 
