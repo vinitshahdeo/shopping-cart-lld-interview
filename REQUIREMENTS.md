@@ -135,3 +135,6 @@ computeDiscount(subtotal: number): number
 4. **Define the API** (§5), then fill in pricing + checkout logic.
 5. **Walk edge cases** (§6) and the concurrency story (README).
 6. **Mention extensions** last: payments, reservations, persistence, multi-currency.
+
+[![Substack](https://img.shields.io/badge/Substack-FF6719?style=for-the-badge&logo=substack&logoColor=white)](https://vinitshahdeo.substack.com/p/shopping-cart-lld-interview)
+
