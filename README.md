@@ -1,3 +1,6 @@
+<img width="1536" height="1024" alt="Shopping Cart LLD" src="https://github.com/user-attachments/assets/a4b85e11-25f9-4b14-947f-bf2ab3baa5bf" />
+
+
 # Online Shopping Cart — Low-Level Design (TypeScript)
 
 An interview-ready LLD of an online shopping cart (add to cart). The focus is clean,
