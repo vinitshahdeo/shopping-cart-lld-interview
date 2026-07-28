@@ -58,6 +58,11 @@ src/
 | `Order` | Immutable record of a completed purchase (all fields `readonly`). |
 | `User` | Owns exactly one `Cart` (composition). |
 
+## Entity Relationship Diagram
+
+<img width="2770" height="1330" alt="ER Diagram - Shopping Cart" src="https://github.com/user-attachments/assets/bed40d03-ff7c-4430-8176-47370a56ca42" />
+
+
 ## Why these design choices
 
 ### 1. Encapsulation guards invariants
