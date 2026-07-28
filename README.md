@@ -10,7 +10,8 @@ and only where it earns its place.
 [![Substack](https://img.shields.io/badge/Substack-FF6719?style=for-the-badge&logo=substack&logoColor=white)](https://vinitshahdeo.substack.com/p/shopping-cart-lld-interview)
 
 
-> **Kindly refer to a [detailed walk-through blog](https://vinitshahdeo.substack.com/p/shopping-cart-lld-interview) on Substack.**
+> [!NOTE]
+>  **Kindly refer to a [detailed walk-through blog](https://vinitshahdeo.substack.com/p/shopping-cart-lld-interview) on Substack.**
 
 
 ## Demo
@@ -43,6 +44,7 @@ src/
   index.ts       demo / entry point (the only file that does I/O)
 ```
 
+> [!TIP]
 > Imports use explicit `.ts` extensions (required by Node's native TS runner),
 > and type-only imports use `import type` so there are no runtime circular
 > dependencies between modules.
@@ -63,7 +65,8 @@ src/
 
 ## Entity Relationship Diagram
 
-**For details, please refer to [REQUIREMENTS.md](./REQUIREMENTS.md).**
+> [!IMPORTANT]
+> **For details, please refer to [REQUIREMENTS.md](./REQUIREMENTS.md).**
 
 <img width="2770" height="1330" alt="ER Diagram - Shopping Cart" src="https://github.com/user-attachments/assets/bed40d03-ff7c-4430-8176-47370a56ca42" />
 
