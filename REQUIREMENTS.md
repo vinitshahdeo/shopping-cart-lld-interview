@@ -72,11 +72,11 @@ stops you from over-building. Good questions for this problem:
 | **Performance** | O(1) add/remove/update per product. | Items keyed by `productId` in a `Map`. |
 | **Consistency (checkout)** | All-or-nothing stock commit. | "Validate all, then commit"; in production wrap in a DB transaction. |
 
+
+> [!TIP]
 > Rule of thumb: pick the **2–3 NFRs that matter most** for the prompt and design for
 > them explicitly. Here that's **extensibility (discounts)**, **correctness (money/stock)**,
 > and **concurrency** if the interviewer pushes on scale.
-
----
 
 ## 4. Core entities & responsibilities
 
