@@ -4,8 +4,6 @@ A companion to [README.md](README.md). This is the "before you write code" part 
 an LLD interview: clarify scope, state requirements, then design. The advice below
 is **what to say out loud**, not just what we ended up building.
 
----
-
 ## 1. Clarifying questions to ask first
 
 Never start coding. Spend 2–3 minutes narrowing scope — it signals seniority and
@@ -32,11 +30,10 @@ stops you from over-building. Good questions for this problem:
 - In-memory exercise, or backed by a **database / distributed** system?
 - Any **persistence** expectation (cart survives logout / page refresh)?
 
+> [!NOTE]
 > For this exercise we assumed: logged-in user, one cart, we own a *simple* in-memory
 > stock count, products merge by id, flat + percentage discounts that stack, a single
 > flat tax applied **after** discounts, single currency. State your assumptions like this.
-
----
 
 ## 2. Functional requirements (what the system does)
 
@@ -57,8 +54,6 @@ stops you from over-building. Good questions for this problem:
 - Product catalog management (search, categories, reviews).
 - Wishlists / save-for-later, multiple carts.
 - Coupon-code redemption, loyalty points.
-
----
 
 ## 3. Non-functional requirements (how well it does it)
 
@@ -89,8 +84,6 @@ stops you from over-building. Good questions for this problem:
 | `Order` | Immutable snapshot of a completed purchase. | Fully `readonly` after creation |
 | `User` | Owns one cart. | One cart per user |
 
----
-
 ## 5. Public API surface (the "interface" you'd sketch on the board)
 
 ```ts
@@ -112,8 +105,6 @@ restock(qty: number): void
 computeDiscount(subtotal: number): number
 ```
 
----
-
 ## 6. Edge cases to call out
 
 - Add quantity that exceeds stock → reject.
@@ -124,8 +115,6 @@ computeDiscount(subtotal: number): number
 - Checkout with an empty cart → reject.
 - Checkout when stock changed since adding → re-validated; all-or-nothing.
 - Floating-point money (`0.1 + 0.2`) → round to 2 dp (note: integer cents in prod).
-
----
 
 ## 7. How to drive the interview (sequence)
 
